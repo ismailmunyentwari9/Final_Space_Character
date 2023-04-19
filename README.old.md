@@ -5,6 +5,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 LOOM VIDEO](#Loom-Video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -61,7 +62,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] Coming Soon
+- [Live Demo Link] <a href="https://ismailmunyentwari9.github.io/react-capstone/">Go  Live</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LOOM VIDEO -->
+
+## 🚀 Loom  Video <a name="loom-Video"></a>
+
+- [Loom video  Link] <a href="https://www.loom.com/share/934e784c61c2485ab4cbb73bd90869a5">Go  Live</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

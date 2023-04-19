@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Home from './components/home';
 import CharacterDetails from './components/characterdetails';
 import store from './store';
-import './App.css';
 
 function App() {
   const [selectedCharacter, setSelectedCharacter] = useState(null);
