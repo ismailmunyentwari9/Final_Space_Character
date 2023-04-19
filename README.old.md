@@ -69,7 +69,7 @@
 
 ## 🚀 Loom  Video <a name="loom-Video"></a>
 
-- [Loom video  Link] <a href="https://www.loom.com/share/934e784c61c2485ab4cbb73bd90869a5">Go  Live</a>
+- [Loom video  Link] <a href="https://www.loom.com/share/934e784c61c2485ab4cbb73bd90869a5">Loom Video</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
