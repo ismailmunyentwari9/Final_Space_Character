@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCharacters } from '../Redux/finalspace/finalspaceSlice';
 import './home.css';
@@ -10,10 +10,21 @@ const Home = ({ handleCharacterClick }) => {
   const { characters, status, error } = useSelector(
     (state) => state.characters,
   );
+  const [searchCharacter, setCharacter] = useState(characters);
+  const [char, setChar] = useState('');
+
+  const handleSearch = (e) => {
+    setChar(e.target.value);
+    setCharacter(characters.filter((character) => character.name.includes(char)));
+  };
 
   useEffect(() => {
     dispatch(fetchCharacters());
   }, [dispatch]);
+
+  useEffect(() => {
+    setCharacter(characters);
+  }, [characters]);
 
   if (status === 'loading') {
     return <div>Loading...</div>;
@@ -32,9 +43,10 @@ const Home = ({ handleCharacterClick }) => {
   return (
     <div className="container cards-holder">
       <h1>Final Space Characters</h1>
+      <input type="text" name="" id="" placeholder="Search" onChange={handleSearch} value={char} />
       <div className="row">
-        {characters.map((character) => (
-          <div className="col-6" key={character.id}>
+        {searchCharacter.map((character) => (
+          <div className="col-6 character-card" key={character.id}>
             <Link to="/details" onClick={() => handleCharacterClick(character)}>
 
               <ul>

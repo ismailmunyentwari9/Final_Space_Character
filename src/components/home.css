@@ -17,6 +17,11 @@ ul {
   display: flex;
   justify-content: space-between;
   color: hsl(0, 27%, 92%);
+
+}
+.row > .character-card:nth-child(4n+3),
+.row > .character-card:nth-child(4n+2) {
+  background-color: red;
 }
 
 img {
