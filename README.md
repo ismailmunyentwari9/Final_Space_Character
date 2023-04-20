@@ -62,14 +62,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] <a href="https://ismailmunyentwari9.github.io/react-capstone/">Go  Live</a>
+- [Live Demo Link] <a href="https://final-space.onrender.com/">Go  Live</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LOOM VIDEO -->
 
 ## 🚀 Loom  Video <a name="loom-Video"></a>
 
-- [Loom video  Link] <a href="https://www.loom.com/share/934e784c61c2485ab4cbb73bd90869a5">Loom Video</a>
+- [Loom video  Link] <a href="https://www.loom.com/share/404b5aa0f1924bc486d7240787dc3106">Loom Video</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

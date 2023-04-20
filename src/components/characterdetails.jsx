@@ -67,8 +67,12 @@ const CharacterDetails = ({ selectedCharacter }) => (
   </div>
 );
 
+CharacterDetails.defaultProps = {
+  selectedCharacter: null,
+};
+
 CharacterDetails.propTypes = {
-  selectedCharacter: PropTypes.objectOf(PropTypes.string.isRequired).isRequired,
+  selectedCharacter: PropTypes.objectOf(PropTypes.string),
 };
 
 export default CharacterDetails;
