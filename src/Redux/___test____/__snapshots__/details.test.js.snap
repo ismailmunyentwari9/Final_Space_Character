@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="characterdetails"
+>
+  <h1>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <span
+        className="to-home"
+      >
+        <i
+          className="fa fa-chevron-left"
+        />
+      </span>
+    </a>
+    <img
+      alt="character"
+    />
+    John Doe
+  </h1>
+  <ul>
+    <li>
+      <span>
+           Gender:
+      </span>
+      <p>
+        Male
+        <span>
+          <i
+            className="fa fa-arrow-right"
+          />
+        </span>
+      </p>
+    </li>
+    <li>
+      <span>
+         Status:
+      </span>
+      <p>
+        <span>
+          <i
+            className="fa fa-arrow-right"
+          />
+        </span>
+      </p>
+    </li>
+    <li>
+      <span>
+        Species:
+      </span>
+      <p>
+        Human
+        <span>
+          <i
+            className="fa fa-arrow-right"
+          />
+        </span>
+      </p>
+    </li>
+    <li>
+      <span>
+        Hair:
+      </span>
+      <p>
+        <span>
+          <i
+            className="fa fa-arrow-right"
+          />
+        </span>
+      </p>
+    </li>
+  </ul>
+</div>
+`;

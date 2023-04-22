@@ -1,0 +1,17 @@
+body {
+  background-color: #3498db;
+}
+
+li {
+  list-style-type: none;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}

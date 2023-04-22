@@ -1,0 +1,58 @@
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  padding: 2% 0%;
+}
+
+.characterdetails ul {
+  display: flex;
+  background-color: #3498db;
+  text-align: left;
+  flex-direction: column;
+}
+
+.characterdetails ul li {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 12px 25px;
+  text-decoration: none;
+  user-select: none;
+}
+
+.characterdetails ul li:nth-child(even) {
+  background-color: #2980b9;
+}
+
+.cards-holder ul li:nth-child(2),
+.characterdetails ul li p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.cards-holder ul li:nth-child(2),
+.characterdetails ul li p span {
+  border: 2px solid #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.to-home {
+  color: rgb(255, 241, 241);
+  float: left;
+  margin-left: 5%;
+}

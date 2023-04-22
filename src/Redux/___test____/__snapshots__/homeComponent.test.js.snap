@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="container cards-holder"
+>
+  <h1>
+    Final Space Characters
+  </h1>
+  <div
+    className="input-group mb-3"
+  >
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <div
+      className="input-group-append"
+    >
+      <button
+        className="btn btn-outline-secondary"
+        type="button"
+      >
+        <i
+          className="fas fa-search"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="row"
+  />
+</div>
+`;
