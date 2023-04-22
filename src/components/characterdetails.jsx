@@ -43,26 +43,6 @@ const CharacterDetails = ({ selectedCharacter }) => (
           </span>
         </p>
       </li>
-      <li>
-        <span>1st Alias Name:</span>
-        <p>
-          {selectedCharacter?.alias[1]}
-          <span>
-            <i className="fa fa-arrow-right" />
-
-          </span>
-        </p>
-      </li>
-      <li>
-        <span>2nd Alias Name:</span>
-        <p>
-          {selectedCharacter?.alias[2]}
-          <span>
-            <i className="fa fa-arrow-right" />
-
-          </span>
-        </p>
-      </li>
     </ul>
   </div>
 );

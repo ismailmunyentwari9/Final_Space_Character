@@ -70,9 +70,11 @@ const Home = ({ handleCharacterClick }) => {
     </div>
   );
 };
-
+Home.defaultProps = {
+  handleCharacterClick: null,
+};
 Home.propTypes = {
-  handleCharacterClick: PropTypes.func.isRequired,
+  handleCharacterClick: PropTypes.func,
 };
 
 export default Home;
